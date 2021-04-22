@@ -1,0 +1,4 @@
+runtime: java11
+instance_class: F4
+env_variables:
+ SERVER_PORT: 8080

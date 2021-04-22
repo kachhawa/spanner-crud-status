@@ -22,6 +22,15 @@ Sample Payload as under:
 2. mvn spring-boot:run
 ```
 
+# Running on Gcloud App Engine
+
+```
+1. Please make sure app.yaml(present in this project) and spanner-crud.jar file are copied into a separate deployment folder. 
+2. Move to the created deployment folder and fire the below command from Google cloud sdk shell. 
+   
+gcloud app deploy app.yaml
+```
+
 # Spanner Crud DDL Scripts
 
 * Outbox table
