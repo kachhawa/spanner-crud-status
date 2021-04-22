@@ -31,6 +31,16 @@ Sample Payload as under:
 gcloud app deploy app.yaml
 ```
 
+# GCloud Project and DB Configuration
+
+
+```
+project-id: pnr-order-poc
+database: database-1
+instance: instance-1
+```
+
+
 # Spanner Crud DDL Scripts
 
 * Outbox table
