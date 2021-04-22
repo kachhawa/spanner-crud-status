@@ -15,6 +15,13 @@ Sample Payload as under:
 
 ```
 
+# Execution steps
+
+```
+1. mvn clean install
+2. mvn spring-boot:run
+```
+
 # Spanner Crud DDL Scripts
 
 * Outbox table
