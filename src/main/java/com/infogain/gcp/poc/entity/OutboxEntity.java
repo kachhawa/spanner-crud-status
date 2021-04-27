@@ -32,6 +32,8 @@ public class OutboxEntity {
     @Column(name = "data")
     private String data;
 
+    @Column(name = "status")
+    private Integer status ;
     @SneakyThrows
     public OutboxModel buildModel() {
         OutboxModel outboxModel = new OutboxModel();

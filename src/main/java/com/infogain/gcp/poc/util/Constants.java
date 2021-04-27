@@ -6,5 +6,6 @@ public final class Constants {
 
     public static final String INSERT = "INSERT";
     public static final String UPDATE = "UPDATE";
+    public static final Integer ZERO = 0;
 
 }

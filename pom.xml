@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.infogain.gcp.poc</groupId>
-    <artifactId>spanner-crud</artifactId>
+    <artifactId>spanner-crud-status</artifactId>
     <packaging>jar</packaging>
     <version>1.0.0</version>
 
-    <name>spanner-crud</name>
+    <name>spanner-crud-status</name>
     <url>http://maven.apache.org</url>
 
     <parent>

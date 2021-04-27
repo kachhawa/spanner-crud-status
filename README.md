@@ -51,6 +51,7 @@ CREATE TABLE OUTBOX (
 	parent_locator STRING(6),
 	created TIMESTAMP NOT NULL,
 	data STRING(MAX) NOT NULL,
+	status INT64 NOT NULL,
 ) PRIMARY KEY (locator, version)
 
 ```

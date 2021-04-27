@@ -2,8 +2,10 @@ package com.infogain.gcp.poc.model;
 
 import com.google.cloud.Timestamp;
 import com.infogain.gcp.poc.entity.OutboxEntity;
+import com.infogain.gcp.poc.util.Constants;
+
 import lombok.*;
-import org.apache.commons.beanutils.BeanUtils;
+
 
 @Data
 @NoArgsConstructor
@@ -25,6 +27,7 @@ public class OutboxModel {
         outboxEntity.setParent_locator(parent_locator);
         outboxEntity.setVersion(version);
         outboxEntity.setCreated(Timestamp.parseTimestamp(created));
+        outboxEntity.setStatus(Constants.ZERO);
         return outboxEntity;
     }
 
