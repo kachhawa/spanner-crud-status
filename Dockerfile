@@ -10,10 +10,10 @@ VOLUME /tmp
 EXPOSE 9001
 
 # application jar file when packaged
-ARG jar_file=target/spanner-crud.jar
+ARG jar_file=target/spanner-crud-status.jar
 
 # add application jar file to container
-COPY ${jar_file} spanner-crud.jar
+COPY ${jar_file} spanner-crud-status.jar
 
 # run the jar file
-ENTRYPOINT ["java", "-jar", "spanner-crud.jar"]
+ENTRYPOINT ["java", "-jar", "spanner-crud-status.jar"]
